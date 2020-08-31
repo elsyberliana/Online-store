@@ -1,0 +1,159 @@
+.name{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+}
+body{
+  margin: 0 auto;
+  background-color: gray;
+}
+.container{
+  width: 1000px;
+  height: auto;
+  background-color: gray;
+  margin: auto;
+}
+
+/* product */
+.product{
+  width: 222px;
+  height: auto;
+  padding: 100px;
+  float: left;
+  padding-top: 0%;
+}
+.clearfix{
+  clear: both;
+}
+.main-menu{
+  background-color:black;
+}
+.main-menu> ul{
+  margin: 0px;
+  padding: 10px ;
+  list-style-type: none;
+}
+.main-menu > ul > li{
+  display: inline-block;
+}
+.main-menu> ul > li > a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-family: sans-serif;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.main-menu> ul > li > a:hover{
+  background-color: black;
+}
+
+/* drop */
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.drop > li > a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-family: sans-serif; 
+  background-color: black;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.drop> li > a:hover{
+  background-color: darkgray;
+}
+.main-menu> ul > li:hover .drop{
+    display: block;
+}
+/* banner */
+.banner img{
+  width: 100%;
+  height: auto;
+}
+/*second menu*/
+.second-menu{
+  background-color: black;
+  text-align: center;
+}
+.second-menu> ul{
+  margin: 100px;
+  padding: 5px ;
+  list-style-type: none;
+}
+.second-menu > ul > li{
+  display: inline-block;
+}
+.second-menu> ul > li > a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-family: sans-serif;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.second-menu> ul > li > a:hover{
+  background-color: black;
+}
+
+/* drop filter */
+
+.drop-filter {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  display: none;
+  z-index: 999;
+}
+.drop-filter > li > a{
+color: white;
+text-decoration: none;
+display: block;
+padding: 10px;
+font-family: sans-serif; 
+background-color: black;
+padding-right: 100px;
+padding-left: 100px;
+}
+.drop-filter> li > a:hover{
+background-color: darkgray;
+}
+.second-menu> ul > li:hover .drop-filter{
+  display: block;
+}
+
+.main-footer{
+  background-color: black;
+  color: white;
+  padding: 25px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.main-footer{
+  list-style-type: none;
+  margin: 0px;
+  padding: 15px ;
+}
+.main-footer a{
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.copy{
+  font-family: sans-serif;
+  text-align: center;
+}
+
