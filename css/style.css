@@ -9,7 +9,7 @@ body{
   background-color: gray;
 }
 .container{
-  width: 1000px;
+  max-width: 1000px;
   height: auto;
   background-color: gray;
   margin: auto;
@@ -155,5 +155,27 @@ background-color: darkgray;
 .copy{
   font-family: sans-serif;
   text-align: center;
+}
+.product-caption p {
+  font-weight: bold;
+}
+.product-caption del {
+  color: black;
+}
+.product-caption ins {
+  color: black;
+}
+.product-caption {
+  display: block;
+}
+.product-caption a{
+  display: block;
+  background-color: black;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: small;
+  text-decoration: none;
 }
 
